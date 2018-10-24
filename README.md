@@ -16,7 +16,7 @@ To create an interactive bookshelf app using ReactJS
 To access this web app:
 
 	1. Clone/Download the repository to your local drive.
-	2. From the command line, run `npm install` and `npm start`
+	2. From the command line at project root, run `npm install` and `npm start`
 	3. With your server running, navigate to `http://localhost:8000`
 
 ## Attribution
