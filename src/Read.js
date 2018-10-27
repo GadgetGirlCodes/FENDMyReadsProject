@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Books from './Books'
+import Book from './Book'
 
 class Read extends Component {
   render() {
@@ -14,7 +14,7 @@ class Read extends Component {
                   .filter(book => book.shelf === 'read')
                   .map(book => (
                       <li key={book.id}>
-                          <Books
+                          <Book
                               book={book}
                               moveShelf={this.props.moveShelf}
                               currentShelf="read"

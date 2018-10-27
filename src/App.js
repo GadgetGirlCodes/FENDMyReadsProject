@@ -4,7 +4,6 @@ import ShowSearch from './ShowSearch'
 import { Route } from 'react-router-dom'
 import * as BooksAPI from './BooksAPI'
 import './App.css'
-import Books from './Books';
 
 class BooksApp extends Component {
   state = {
