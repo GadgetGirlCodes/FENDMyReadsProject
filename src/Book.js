@@ -4,7 +4,7 @@ class Book extends Component {
     render() {
         let displayedThumbnail = this.props.book.imageLinks ? 
             this.props.book.imageLinks.thumbnail : 
-            '';
+            'http://via.placeholder.com/128x193?text=No%20Cover';
 
         return (
             <div className="book">
